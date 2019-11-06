@@ -1,0 +1,115 @@
+body {
+    scroll-behavior: smooth;
+    background-color: beige;
+}
+
+header {
+display: inline-block;
+width: 100%;
+
+}
+    nav {
+        display: inline-block;
+        width: 1000px;
+        height: 120px;
+        margin-left: calc((100% - 1000px) / 2);
+        margin-top: 10px;
+        text-align: center;
+        background-color: #FFFFFF;
+    }
+        .nav-left {
+            width: 30%;
+            display: inline-block;
+            float: left;
+            background-color: #FFFFFF
+            
+        }
+            .logo {
+                display: inline-block;
+            }
+                .logo > img {
+                    margin: 10px;
+                }
+        .nav-right {
+            display: inline-block;
+            width: 70%;
+            float: left;
+            background-color: #FFFFFF
+        }
+            .contacts {
+                display: inline-block;
+                width: 100%;
+                background-color: black;
+                color: rgb(187, 187, 187);
+                padding: 10px 0;
+                
+            }
+                .phone {
+                    display: inline-block;
+                    width: 29%;
+                    float: left;
+                }
+                    .phone > i {
+                        display: inline-block;
+                        color: rgb(255, 234, 0);
+                    }
+                    p {
+                        display: inline-block;
+                    }
+                .email {
+                    display: inline-block;
+                    width: 29%;
+                    float: left;
+                }
+                    .email > i {
+                        display: inline-block;
+                        color: rgb(255, 234, 0);
+                    }
+                    a {
+                        display: inline-block;
+                        color: rgb(187, 187, 187);
+                        text-decoration: none;
+                    }
+                .socials {
+                    display: inline-block;
+                    width: 40%;
+                    float: right;
+                }
+                    p{
+                        display: inline-block;
+                    }
+                    a {
+                        display: inline-block;
+                    }
+            .menu {
+                display: inline-block;
+                width: 100%;
+                margin-top: 10px;
+                
+            }
+                .menu-links {
+                    display: inline-block;
+                    width: 84%;
+                    margin-bottom: 10px;
+                }
+                    .menu-links > a:first-of-type {
+                        border-bottom: 4px solid rgb(255, 234, 0);
+                        color: rgb(255, 234, 0);
+                    }
+                    .menu-links > a {
+                        display: inline-block; 
+                        padding: 15px 10px;
+                        text-align: center;
+                        
+                    }
+                    .menu-links > a:hover {
+                        border-bottom: 4px solid rgb(255, 234, 0);
+                        color: rgb(255, 234, 0);
+                    }
+                .cart-search {
+                    display: inline-block;
+                    width: 15%;
+                }
+                    i {
+                        display: inline-block;
+                    }
