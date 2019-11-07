@@ -6,13 +6,17 @@ body {
 header {
 display: inline-block;
 width: 100%;
+background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/back2.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 
 
 }
     nav {
         display: inline-block;
-        width: 1000px;  
-        margin-left: calc((100% - 1000px) / 2);
+        width: 1200px;  
+        margin-left: calc((100% - 1200px) / 2);
         margin-top: 10px;
         text-align: center;
         background-color: #FFFFFF;
@@ -30,6 +34,7 @@ width: 100%;
                 height: 110px;
             }
                 .logo > img {
+                    display: inline-block;
                     margin-top: 25px;
                 }
         .nav-right {
@@ -56,7 +61,6 @@ width: 100%;
             }
                 .phone {
                     display: inline-block;
-                    width: 29%;
                     float: left;
                     margin-top: 10px;
                 }
@@ -64,39 +68,53 @@ width: 100%;
                         display: inline-block;
                         color: rgb(255, 234, 0);
                         margin-right: 10px;
+                        float: left;
+                        width: 10px;
                     }
-                    p {
+                    .phone > p {
                         display: inline-block;
+                        float: left;
                     }
                 .email {
                     display: inline-block;
-                    width: 29%;
                     float: left;
                     margin-top: 10px;
+                    margin-left: 20px;
                 }
                     .email > i {
                         display: inline-block;
                         color: rgb(255, 234, 0);
                         margin-right: 10px;
+                        float: left;
+                        width: 10px;
                     }
-                    a {
+                    .email > a {
                         display: inline-block;
                         color: rgb(187, 187, 187);
                         text-decoration: none;
+                        float: left;
                     }
                 .socials {
                     display: inline-block;
-                    width: 35%;
                     float: right;
                     margin-top: 10px;
+                    margin-right: 20px;
                 }
-                    p{
+                .socials > p {
                         display: inline-block;
                         margin-right: 5px;
                     }
-                    a {
+                    .socials > a {
                         display: inline-block;
-                        margin-right: 5px;
+                        margin-right: 3px;
+                        color:rgb(187, 187, 187);
+                        text-decoration: none;
+                    }
+                    .socials > a:hover {
+                        display: inline-block;
+                        margin-right: 3px;
+                        color:rgb(255, 234, 0);
+                        text-decoration: none;
                     }
             .menu {
                 display: inline-block;
@@ -117,6 +135,8 @@ width: 100%;
                         display: inline-block; 
                         padding: 15px 10px;
                         text-align: center;
+                        text-decoration: none;
+                        color:rgb(187, 187, 187);
                         
                     }
                     .menu-links > a:hover {
@@ -128,7 +148,105 @@ width: 100%;
                     width: 15%;
                     margin-top: 15px;
                 }
-                    i {
+                .cart-search > i {
                         display: inline-block;
                         margin-right: 10px;
+                        float: left;
+                        width: 20px;
                     }
+    .slide {
+        display: inline-block;
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+       
+        
+    }
+        .slide-left {
+            display: inline-block;
+            float: left;
+            margin-top: 100px;
+            padding: 50px 10px;
+            background-color: rgba(172, 172, 172, 0.5); 
+        }
+        .slide-left > i {
+                display: inline-block;
+                width: 100%;
+                color: white;
+                
+            }
+        .slide-content {
+            display: inline-block;
+            width: 400px;
+            margin-left: calc((100% - 400px) / 4);
+            
+        }
+        .slide-content > h1 {
+            display: inline-block;
+                color: #fcb903;
+                width: 100%;
+                font-size: 50px;
+            }
+            
+            .slide-content > h2 {
+                display: inline-block;
+                width: 100%;
+                color: white;
+                font-size: 40px;
+            }
+            .slide-content > h3 {
+                display: inline-block;
+                width: 100%;
+                color: white;
+                margin-bottom: 20px;
+                
+            }
+            .purchase-btn {
+                display: inline-block;
+                border:white solid 1px;
+                background-color: #fcb903;
+                margin-right: 10px;
+            }
+            .purchase-btn > i {
+                display: inline-block;
+                color: white;
+                line-height: 40px;
+                margin-left: 10px;
+                margin-right: 10px;
+                
+                }
+                .purchase-btn > a {
+                    display: inline-block;
+                    text-decoration: none;
+                    color: white;
+                    padding: 10px;
+                    border-left:white solid 1px;
+
+                    
+                }
+            .discover-btn {
+                display: inline-block;
+                border:white solid 1px;
+            }
+            .discover-btn > i {
+                display: inline-block;
+                color: white;
+                line-height: 40px;
+                margin-left: 10px;
+                margin-right: 10px;
+                }
+                .discover-btn > a {
+                    display: inline-block;
+                    text-decoration: none;
+                    color: white;
+                    padding: 10px;
+                    border-left:white solid 1px;
+                }
+        .slide-right {
+            display: inline-block;
+            float: right;
+            margin-top: 100px;
+            color: white;
+            padding: 50px 10px;
+            background-color: rgba(172, 172, 172, 0.5); 
+        }
